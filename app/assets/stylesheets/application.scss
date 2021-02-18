@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap/scss/bootstrap";
+
+ .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-body {
+  border-radius: 4px;
+
+}
+
+.flat-card-image{
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+}
+
